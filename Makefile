@@ -7,5 +7,5 @@ clean:
 	$(RM) main
 
 main: main.c
-	$(CC) -lm -lSDL2 -o main main.c
+	$(CC) -o main main.c -lm -lSDL2
 
